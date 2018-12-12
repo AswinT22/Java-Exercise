@@ -5,6 +5,11 @@ public class Rectangle {
 	private int length;
 	private int breadth;
 	
+	public Rectangle() {
+		setBreadth(5);
+		setLength(10);
+	}
+	
 	public void setLength(int length) {
 		this.length = length;
 	}

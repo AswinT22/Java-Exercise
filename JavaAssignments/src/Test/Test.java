@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Test {
 
-	public static void main(String[] args) {
+	//public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		Test2 obj=new Test2();
 //		System.out.println(obj.z);
@@ -63,7 +63,7 @@ public class Test {
 //		System.out.println(sum);
 //			
 			
-		}
+	//	}
 			
 		
 		}

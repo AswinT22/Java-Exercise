@@ -1,18 +1,18 @@
 package Test;
 
-public class Test2{
-	int a;
-	static int z;
-	static {
-		z=10;
+
+	class Bank{
+		String bankName,area,phoneNo;
 		
-		System.out.println("Static block");
-		
-		
-	}
-	 void get() {
-		z=100;
-		System.out.println(z);
+		public static void main(String args[]){
+			Bank bank=new Bank();
+			System.out.println(bank.bankName);
+			bank.Bank();
+		}
+		 void Bank(){
+			System.out.println("inside constructor");
+		}
 	}
 	
-}
+	
+
